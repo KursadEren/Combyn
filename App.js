@@ -8,9 +8,7 @@ export default function App() {
       <View>
       <MyButton title={"merhaba"}/>
       </View>
-      <View>
-      <MyButton title={"yusuf"}/>
-      </View>
+      
     </View>
   )
 }
