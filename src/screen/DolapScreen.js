@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, FlatList, ScrollView, Image }
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
 const ProductsSection = ({ showAllProducts, setShowAllProducts }) => {
     const products = [

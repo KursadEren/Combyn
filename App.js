@@ -7,6 +7,7 @@ import AccountVerificationScreen from './src/screen/AccountVerificationScreen';
 import SplashScreen from './src/screen/SplashScreen';
 import DolapScreen from './src/screen/DolapScreen';
 import ProductsScreen from './src/screen/deneme';
+
 const App = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
