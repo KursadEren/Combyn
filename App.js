@@ -5,13 +5,12 @@ import LoginScreen from './src/screen/LoginScreen';
 import PasswordResetScreen from './src/screen/PasswordResetScreen';
 import AccountVerificationScreen from './src/screen/AccountVerificationScreen';
 import SplashScreen from './src/screen/SplashScreen';
-import DolapScreen from './src/screen/DolapScreen';
-import ProductsScreen from './src/screen/deneme';
+import DolapPage1 from './src/screen/MainPage';
 
 const App = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <ProductsScreen />
+      <DolapPage1 />
     </SafeAreaView>
   );
 };
